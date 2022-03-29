@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:servicesapp/authentication/login.dart';
+import 'package:servicesapp/authentication/register.dart';
 
 class AuthScreen extends StatefulWidget {
   const AuthScreen({Key? key}) : super(key: key);
@@ -19,10 +21,10 @@ class _AuthScreenState extends State<AuthScreen> {
                   gradient: LinearGradient(
                 colors: [
                   Colors.cyan,
-                  Colors.amber,
+                  Colors.blue,
                 ],
                 begin: FractionalOffset(0.0, 0.0),
-                end: FractionalOffset(1.0, 0.0),
+                end: FractionalOffset(0.0, 1.0),
                 stops: [0.0, 1.0],
                 tileMode: TileMode.clamp,
               )),
@@ -60,14 +62,14 @@ class _AuthScreenState extends State<AuthScreen> {
             begin: Alignment.topRight,
             end: Alignment.bottomLeft,
             colors: [
-              Colors.amber,
-              Colors.cyan,
+              Colors.blueGrey,
+              Colors.grey,
             ],
           )),
           child: const TabBarView(
             children: [
               LoginScreen(),
-              SignUpScreen(),
+              RegisterScreen(),
             ],
           ),
         ),

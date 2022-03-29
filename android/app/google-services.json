@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "171163042670",
+    "project_id": "servicesapp-80ece",
+    "storage_bucket": "servicesapp-80ece.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:171163042670:android:7cee40247f0be0bdb0b77f",
+        "android_client_info": {
+          "package_name": "com.domesticapp.servicesapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "171163042670-fuui2uu2ro0rdhcj79lu74ltb2nu7bqo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmRX6jRi2VVshy9jotMC7JVlGQZrgRn1w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "171163042670-fuui2uu2ro0rdhcj79lu74ltb2nu7bqo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
